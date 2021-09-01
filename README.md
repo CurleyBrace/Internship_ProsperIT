@@ -68,7 +68,8 @@ This table was wrapped in a Foreach statement so that when the view is loaded it
                 </div>
                 <!--Delete Button Column-->
                 <div class="col">
-                  <button class="btn btn-danger fas fa-trash BlogPost-index--returnButton" data-toggle="modal" data-target="#BlogPost-index--deleteModal"                                           value="@item.BlogPostId">&nbsp;Delete</button>
+                  <button class="btn btn-danger fas fa-trash BlogPost-index--returnButton" data-toggle="modal" data-target="#BlogPost-index--deleteModal"
+                  value="@item.BlogPostId">&nbsp;Delete</button>
                   <!--End of Button Row-->
                 </div>
                 <!--End of the BlogPost Button Row-->
